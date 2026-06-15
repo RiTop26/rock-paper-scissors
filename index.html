@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="./style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
 </head>
 <body>
+    <div class="description">
+        <h1>Welcome to My Rock, Paper, Scissors Game</h1>
+        <p>
+            This is a simple Rock, Paper, Scissors game played by clicking the buttons.<br>
+            Each time you click a button, the computer randomly selects its choice.<br> 
+            The game continues until either the player or the computer reaches 5 points.<br> 
+            At that point, the game ends and the winner is announced.
+        </p>
+    </div>
     
+
+    <div id="container">
+        <p>Pick your choice</p>
+        <div class="myButtons">
+            <button id="one">Rock</button>
+            <button id="two">Paper</button>
+            <button id="three">Scissors</button>
+        </div>
+        <div id="human"></div>
+        <div id="computer"></div>
+        <div id="result"></div>
+        <div id="score"></div>
+        <div id="final"></div>
+    </div>
 
     <script src = "script.js"></script>
 </body>
